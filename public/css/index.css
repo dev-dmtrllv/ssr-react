@@ -1,0 +1,12 @@
+* {
+	display: border-box;
+}
+
+html, body, #root
+{
+	max-width: 100%;
+	min-height: 100vh;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}

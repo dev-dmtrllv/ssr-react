@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"WebWorker",
+			"ESNext"
+		],
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"resolveJsonModule": true,
+		"jsx": "react-jsx",
+		"baseUrl": "src",
+		"rootDir": "src",
+		"experimentalDecorators": true,
+		"sourceMap": true,
+		"paths": {
+			"@*": [
+				"./*"
+			],
+		}
+	},
+	"exclude": [
+		"node_modules"
+	]
+}
